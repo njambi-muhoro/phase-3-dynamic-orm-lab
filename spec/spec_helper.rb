@@ -1,5 +1,6 @@
 require_relative '../config/environment'
 require_relative'../lib/student'
+require 'active_support/inflector'
 require_relative'../lib/interactive_record'
 
 RSpec.configure do |config|
